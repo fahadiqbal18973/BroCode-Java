@@ -17,7 +17,7 @@ public class Variable {
       System.out.println("You are a student");
     }
     else{
-      System.out.print("You are not a student");
+      System.out.print("You are notz a student");
     }
   }
 }

@@ -6,14 +6,14 @@ class Account {
     Account(String name) {
         this.holderName = name;
         this.balance = 0; // Default zero balance set kar diya
-        System.out.println("Zero-Balance Account Khul Gaya!");
+        System.out.println("Zero-Balance Account Opened!");
     }
 
     // 2. Dusra Constructor: Jo NAAM aur PAISA dono leta hai (Overloaded Constructor)
     Account(String name, int openingBalance) {
         this.holderName = name;
         this.balance = openingBalance;
-        System.out.println("Savings Account Khul Gaya jisme Rs." + openingBalance + " hain!");
+        System.out.println("Savings Account Opened with Rs." + openingBalance + " balance!");
     }
 
     void showDetails() {

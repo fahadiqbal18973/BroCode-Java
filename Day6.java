@@ -1,3 +1,6 @@
+// Static variable vs Instance variable
+
+
 class Employee{
   String empName;
   int empId;

@@ -9,6 +9,7 @@ class GymMember {
   static String gymName;
   static int idCounter;
 
+
   //Static block
   static {
     gymName = "Knight's Club";
